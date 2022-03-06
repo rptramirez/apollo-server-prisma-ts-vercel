@@ -1,0 +1,1 @@
+export const JSON_SIGNATURE = 'gouwehgo3uwegho23gb32ogb23ig32'

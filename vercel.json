@@ -1,0 +1,11 @@
+{
+    "name": "apollo-serverless-prisma-ts-vercel",
+    "version": 2,
+    "scope": "rptramirez",
+    "functions": {
+        "api/graphql.ts": {
+            "maxDuration": 1,
+            "memory": 1024
+        }
+    }
+}

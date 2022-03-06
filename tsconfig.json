@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "public",
+    "strict": true,
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "esModuleInterop": true
+  }
+}
