@@ -8,6 +8,7 @@
     "start:dev": "nodemon --watch './**/*.ts' --exec 'ts-node' api/graphql.ts",
     "postinstall": "prisma generate",
     "build": "prisma generate && prisma migrate deploy && rimraf dist && tsc",
+    "vercel-build": "prisma generate && prisma migrate deploy && rimraf dist && tsc",
     "prisma:migrate": "prisma migrate dev --name init",
     "prisma:migrate:dev": "prisma migrate dev",
     "prisma:migrate:reset": "prisma migrate reset",
